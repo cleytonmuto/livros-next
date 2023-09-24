@@ -1,4 +1,4 @@
-import { ControleEditora } from './../../../../classes/controle/ControleEditora';
+import { ControleEditora } from '../../../../classes/controle/ControleEditora';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export const controleEditora = new ControleEditora();
