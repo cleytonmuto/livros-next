@@ -5,7 +5,7 @@ import { Menu } from '../../components/Menu';
 import Livro from '../../classes/modelo/Livro';
 import { LinhaLivro } from '../../components/LinhaLivro';
 
-const baseURL = 'http://localhost:3000/api/livros';
+const baseURL = 'https://my-json-server.typicode.com/cleytonmuto/json-server-livros/livros';
 
 const LivroLista = () => {
   const [livros, setLivros] = useState<Livro[]>([]);
