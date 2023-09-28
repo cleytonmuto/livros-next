@@ -19,7 +19,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
     }
     else {
       res.status(405).json({
-        message: 'Método não permitido'
+        message: 'API livros - Método não permitido'
       });
     }
   }
