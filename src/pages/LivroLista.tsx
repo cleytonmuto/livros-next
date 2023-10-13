@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
-import { Menu } from '../../components/Menu';
-import Livro from '../../classes/modelo/Livro';
-import { LinhaLivro } from '../../components/LinhaLivro';
+import { Menu } from '../components/Menu';
+import Livro from '../classes/modelo/Livro';
+import { LinhaLivro } from '../components/LinhaLivro';
 
 const baseURL = 'https://my-json-server.typicode.com/cleytonmuto/json-server-livros/livros';
 

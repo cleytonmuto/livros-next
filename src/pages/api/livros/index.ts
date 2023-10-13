@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { ControleLivros } from '../../../../classes/controle/ControleLivros';
+import { ControleLivros } from '../../../classes/controle/ControleLivros';
 
 export const controleLivros = new ControleLivros();
 

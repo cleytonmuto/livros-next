@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-import { ControleEditora } from '../../classes/controle/ControleEditora';
-import Livro from '../../classes/modelo/Livro';
-import { Menu } from '../../components/Menu';
+import { ControleEditora } from '../classes/controle/ControleEditora';
+import Livro from '../classes/modelo/Livro';
+import { Menu } from '../components/Menu';
 
 import styles from '../styles/Home.module.css';
 

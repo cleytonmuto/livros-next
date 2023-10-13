@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { ControleLivros } from '../../../../classes/controle/ControleLivros';
+import { ControleLivros } from '../../../classes/controle/ControleLivros';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (req: NextApiRequest, res: NextApiResponse) => {
